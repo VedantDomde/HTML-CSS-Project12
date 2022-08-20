@@ -10,6 +10,7 @@ header {
     background-color: #636C79;
 }
 
+
 nav {
     margin: 0 3%;
     display: flex;
@@ -33,10 +34,24 @@ nav {
     font-size: 20px;
     color: #ffffff;
 }
+@media screen and (max-width:1000px) {
+    .nav-items li{
+        display: none;
+    
+    }
+    
+}
 
 .btn {
     flex: 20;
     text-align: center;
+}
+@media screen and (max-width:700px) {
+    .btn {
+        display: none;
+
+    }
+    
 }
 
 .btn a {
@@ -54,10 +69,25 @@ nav {
     padding-bottom: 70px;
     height: 60vh;
 }
+@media screen  and (max-width:700px){
+    .head{
+        flex-direction: column;
+        margin-left:50%;
+
+    }
+    
+}
 
 .image {
     display: flex;
     align-items: center;
+}
+@media screen and(max-width:600px) {
+    .image{
+        flex-direction: column;
+        margin-left:30%;
+    }
+    
 }
 
 .image img {
@@ -69,6 +99,13 @@ nav {
     flex-direction: column;
     justify-content: space-around;
     width: 40%;
+}
+@media screen and(max-width:600px) {
+    .content{
+        flex-direction: column;
+        margin-left:50%;
+    }
+    
 }
 
 .content h1 {
@@ -91,6 +128,13 @@ nav {
     align-items: center;
     width: fit-content;
     padding: 10px 10px;
+}
+@media screen  and(max-width:600px){
+ .mail   {
+    flex-direction: column;
+    margin-left:50%;
+    }
+    
 }
 
 .mail p i {
@@ -123,8 +167,14 @@ nav {
     display: flex;
     justify-content: center;
     gap: 100px;
-
     margin-bottom: 50px;
+}
+@media screen and (max-width:700px){
+    .stats{
+        flex-direction: column;
+        margin-left:50%;
+    }
+    
 }
 
 .stat {
@@ -148,6 +198,7 @@ nav {
     justify-content: center;
     position: relative;
 }
+
 
 .vid img {
     width: 75%;
@@ -175,6 +226,13 @@ nav {
     justify-content: space-evenly;
 
     margin: 80px 0;
+}
+@media screen and (max-width:700px){
+    .post{
+        flex-direction: column;
+        margin-left:50%;
+    }
+    
 }
 
 .post-img img {
@@ -214,6 +272,14 @@ nav {
     display: flex;
     justify-content: space-around;
 }
+@media screen  and (max-width:700px){
+    .team-top{
+        flex-direction: column;
+        margin-left:50%;
+    
+    }
+    
+}
 
 .team h1 {
     width: 300px;
@@ -235,7 +301,12 @@ nav {
     display: flex;
     justify-content: space-evenly;
 }
-
+@media screen and (max-width:700px){
+    .team-bottom{
+        flex-direction: column;
+        margin-left: 50%;
+    }
+}
 .member img {
     width: 250px;
 }
@@ -288,6 +359,15 @@ footer {
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
+}
+@media screen and (max-width:900px){
+    .footer-bottom {
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        margin-left: 50%;
+    }
+    
 }
 
 .list-items {
