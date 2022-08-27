@@ -4,7 +4,14 @@
 
 ### My final website is below.
 
-![homepage](thumbnail.png)
+![homepage](images/3rd.jpg.png)
+
+![homepage](images/4th.jpg)
+![homepage](images/5th.jpg)
+![homepage](images/6th.jpg)
+![homepage](images/7th.jpg)
+
+![homepage](images/8th.jpg)
 
 - Time Taken:3 hour 
 
